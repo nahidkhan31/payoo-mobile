@@ -25,7 +25,7 @@
           <img src="" alt="">
           <h1 class="text-2xl font-bold mb-2">Welcome to Payoo!</h1>
         </div>
-        <p>Enjoy easy and convenient financial with us. Cashout charge is low and safe transection.</p>
+        <p class="text-sm ">Enjoy easy and convenient financial with us. Cashout charge is low and safe transection.</p>
         <div class="cards grid grid-cols-3 mt-14 gap-2 p-2">
           <div id="add-money-box" class="box border p-4 text-center rounded-sm">
             <img class="w-8 mx-auto" src="assets/wallet1.png" alt="">
@@ -123,20 +123,20 @@
               <label class="label">
                 <span class="label-text">Amount</span>
               </label>
-              <input id="amount" type="number" placeholder="type your ammount" class="input input-bordered"
+              <input id="cashout-amount" type="number" placeholder="type your ammount" class="input input-bordered"
                 required />
             </div>
             <div class="form-control">
               <label class="label">
                 <span class="label-text">PIN</span>
               </label>
-              <input id="pin-number" type="text" placeholder="type your pin" class="input input-bordered" required />
+              <input id="cashout-pin-number" type="text" placeholder="type your pin" class="input input-bordered" required />
               <label class="label">
                 <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
               </label>
             </div>
             <div class="form-control mt-6">
-              <button id="login-btn" class="btn btn-primary bg-blue-700">cash Out</button>
+              <button id="cashout-btn" class="btn btn-primary bg-blue-700 font-bold">Cash Out</button>
             </div>
           </form>
         </section>
@@ -148,6 +148,7 @@
 
   <script src="jsfilder/main.js"></script>
   <script src="jsfilder/taggle.js"></script>
+  <script src="jsfilder/cashout.js"></script>
 </body>
 
 </html>
